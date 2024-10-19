@@ -33,8 +33,8 @@ set_target_properties(DaisySP_LGPL PROPERTIES PUBLIC
 target_include_directories(DaisySP_LGPL PUBLIC
   ${CMAKE_CURRENT_LIST_DIR}/Source
   PRIVATE
-  "../../Source"
-  "../../Source/Utility"
+  "../Source"
+  "../Source/Utility"
   "Source"
   "Source/Control"
   "Source/Dynamics"
